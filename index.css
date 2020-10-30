@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+/*navegador ya esta*/
+
+#header-estilos{
+    font-family: 'lato';
+    display: flex;
+    justify-content:center;
+  background-color: black;
+}
+
+
+
+#header-estilos ul> li> a{
+    color:white;
+    padding-left: 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    }
+
+#header-estilos>ul>li>a:hover{
+color:red}
+
+#drop{
+    background-color: black;
+    }
+    
+    #header-estilos>nav>a{
+    color:Red;
+   }
+
+
+   .dropdown>a{
+    background-color: black
+    ;}
+
+    .dropdown a:hover{
+    color:red;
+}
+
+#prueba2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#shutter{
+
+    color:red;
+position: absolute;
+margin-left: -1700px;
+
+font-family: 'Anton', sans-serif;
+font-size: 30px;
+}
+
+#navbarSupportedContent>ul>li>a:hover{
+    color:red
+}
+
+
+/*footer*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.Footer>h2{
+    margin-top: 100px;
+    color: white;
+    font-family: 'lato';
+   }
+
+
+.footer img{
+    border-radius: 20px;
+  margin-left: 10px;
+   margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+#footer__texto{
+
+    font-size: 20px;
+padding-right   : 10px;}
+
+
+/*contacto*/  
+.form {   padding-top: 20px;
+   background-color: white;
+ width: 100%;
+    height:1000px;
+    color: black;
+    text-align: center;
+    font-style: 'lato';
+    font-weight: 800;
+
+}
+
+
+#boton {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 1s;
+
+}
+
+#boton:hover {
+    background-color: white;
+    color: black;
+}
+
+/*bio*/
+#bio {
+    background: black;
+    height:auto;
+    padding-bottom: 12px;
+}
+
+#bio .gridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 0px 0px;
+    grid-template-areas:
+        "foto1 foto2 foto2"
+        "texto1 texto 1texto"
+        "footer footer footer"
+
+}
+
+#bio #fotobio {
+
+    width: 400px;
+    height: 400px;
+    grid-area: foto1;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    border-radius: 400px;
+
+
+
+}
+.footer{
+    grid-area: footer;
+}
+
+#bio #fotobio2 {
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 800px;
+    height: 200px;
+    grid-area: foto;
+    display: flex;
+    align-self: center;
+    grid-area: foto2;
+}
+
+#bio p {
+    line-height: 25px;
+    font-size: 20px;
+    font-family: 'lato';
+    color: white;
+    grid-area: texto;
+    display: flex;
+
+}
+.fondo{
+
+padding-top: 100px;
+
+}
+
+/*faq*/
+
+
+#faq{
+    
+    height:650px;
+  padding-top:50px;
+  background-color: white;
+  
+
+}
+
+#faq .boton-estilo{
+    margin-top: 10px;
+    margin-left:20px;
+}
+
+#faq .nav-link{
+    margin:5px;
+    background-color: black;
+    color:white;
+    font-family: 'lato';
+    
+
+}
+#faq .nav-link:hover{
+    color:red;
+    
+}
+
+#faq .card-header{
+    background-color: black;
+
+   
+
+}
+
+#faq .card-header button{
+    color:white;
+    font-family: 'lato';
+    text-decoration: none;
+}
+#faq .card-header button:hover{
+    color:red;
+}
+
+/*fotos*/
+
+
+.body{
+    background-color: black;
+
+}
+.sectionfotos{
+    margin-top: 40px;
+    width: 100%;
+    background-color: black;
+    height:750px;
+}
+#prueba2 img{
+    width: 398px;
+    height: 400px
+}
+
+#prueba2 p{
+    text-transform: uppercase;
+    font-family: 'lato';
+    text-align: center;
+    font-weight: bold;
+    }
+/*galerias*/
+.fondo{
+    background-color:white;
+}
+
+ #galeria  img {
+    width: 100%;
+    height: 300px;
+    transition: 0.2s;
+}
+
+.col-lg-4{
+    padding: 25px;
+    margin: 0 !important;
+}
+
+#galeria img:hover{
+    border:5px solid #f7f7f7
+}
+
+
+
+
+
+
+#sectionbio{
+    background-color: white;
+    width: 100%;
+    height:950px;
+}
+
+
+
+#sectionbio img{
+    width: 100%;
+    height:900px
+}
+
+.sectionbio2{
+  display: flex;
+  justify-content: center;
+    width: 100%;
+    height: 900px;
+    background-color: white;
+}
+#sectionbio2 .sectionbio3{
+    display: flex;
+    flex-direction: column;
+}
+.sectionbio2 img{
+    height: 840px;
+    width:550px;
+}
+
+.main-estilos{
+    padding-bottom:10px;
+}
+#carouselExampleInterval{
+
+margin-left: 10px;
+ max-width: 550px;
+height:850px;
+border:5px solid black;
+}
+
+.sectionbio2 #imgbio{
+    
+    width:200px;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-left: 550px;
+    border-radius: 100px;
+    border: 3px solid black;
+}
+.sectionbio3 h1{
+    text-align: center;
+    font-family: 'lato';
+    padding-bottom: 20px;
+    
+}
+.sectionbio3 p{
+
+    text-align: justify;
+    padding-left: 300px;
+    font-family: 'lato';
+}
+
+.center {
+    
+ 
+        background-color:black;
+    display: table;
+    width: 100%;
+    height: 100px;
+}
+
+#social-test {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 30px
+}
+
+#social-test p{
+    color:white;
+}
+
+#social-test h2 {
+    color: #fff;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-weight: 100
+}
+
+#social-test .social {
+    padding-left: 0
+}
+
+#social-test a {
+    color: #909090;
+    list-style-type: none;
+    display: inline-block;
+    width: 60px;
+    height: 60  px;
+    line-height: 10px;
+    padding: 1%;
+    border: 1px solid rgba(167, 146, 129, .4);
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    transition: ease .3s
+}
+
+#social-test a:hover {
+    color: #fff;
+    border: 1px solid #ccc
+}
+
+.social:hover>a {
+    opacity: .5
+}
+
+.social:hover>a:hover {
+    opacity: 1
+}
+.center2{
+    margin-top:-18px;
+    width: 100%;
+    height: 30px;
+    background-color:white;
+}
+
+.center2 p{
+    font-family: 'lato';
+    text-align: center;
+    line-height: 30px;
+
+}
