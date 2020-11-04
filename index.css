@@ -7,7 +7,7 @@ body {
     background-color: black;
 }
 
-/*navegador ya esta*/
+/*navegador*/
 
 #header-estilos{
     font-family: 'lato';
@@ -66,139 +66,65 @@ font-size: 30px;
 }
 
 
-/*footer*/
-
-.footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 70px;
-    background-color: black;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-
-.Footer>h2{
-    margin-top: 100px;
-    color: white;
-    font-family: 'lato';
-   }
-
-
-.footer img{
-    border-radius: 20px;
-  margin-left: 10px;
-   margin-right: 10px;
-    width: 50px;
-    height: 50px;
-}
-
-#footer__texto{
-
-    font-size: 20px;
-padding-right   : 10px;}
-
 
 /*contacto*/  
-.form {   padding-top: 20px;
-   background-color: white;
- width: 100%;
-    height:1000px;
-    color: black;
-    text-align: center;
-    font-style: 'lato';
-    font-weight: 800;
-
-}
-
-
-#boton {
-    width: 100px;
-    height: 100px;
-    background-color: black;
-    color: white;
-    border-radius: 50px;
-    text-decoration: none;
-    transition: 1s;
-
-}
-
-#boton:hover {
+.form__estilos{
     background-color: white;
-    color: black;
+    height:740px;
+    width: 100%;
 }
-
-/*bio*/
-#bio {
-    background: black;
-    height:auto;
-    padding-bottom: 12px;
-}
-
-#bio .gridcontainer {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 1fr ;
-    gap: 0px 0px;
-    grid-template-areas:
-        "foto1 foto2 foto2"
-        "texto1 texto 1texto"
-        "footer footer footer"
-
-}
-
-#bio #fotobio {
-
-    width: 400px;
+.contact{
+    padding: 4%;
     height: 400px;
-    grid-area: foto1;
-    display: flex;
-    justify-self: center;
-    align-items: center;
-    border-radius: 400px;
-
-
-
 }
-.footer{
-    grid-area: footer;
+.col-md-3{
+    background:blaCK;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+    margin-top:10%;
+}
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-9{
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    background: BLACK;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+.contact-form button:focus{
+    box-shadow:none;
 }
 
-#bio #fotobio2 {
-    margin-top: 30px;
-    margin-left: 80px;
-    width: 800px;
-    height: 200px;
-    grid-area: foto;
-    display: flex;
-    align-self: center;
-    grid-area: foto2;
-}
 
-#bio p {
-    line-height: 25px;
-    font-size: 20px;
-    font-family: 'lato';
-    color: white;
-    grid-area: texto;
-    display: flex;
-
-}
-.fondo{
-
-padding-top: 100px;
-
-}
 
 /*faq*/
-
+.faq__contenedor{
+    background-color: white;
+    
+}
 
 #faq{
     
-    height:650px;
+    height: 740px;
   padding-top:50px;
   background-color: white;
+ 
   
 
 }
@@ -237,33 +163,14 @@ padding-top: 100px;
     color:red;
 }
 
-/*fotos*/
 
-
-.body{
-    background-color: black;
-
-}
-.sectionfotos{
-    margin-top: 40px;
-    width: 100%;
-    background-color: black;
-    height:750px;
-}
-#prueba2 img{
-    width: 398px;
-    height: 400px
-}
-
-#prueba2 p{
-    text-transform: uppercase;
-    font-family: 'lato';
-    text-align: center;
-    font-weight: bold;
-    }
 /*galerias*/
-.fondo{
+
+.contenedor-galeria{
     background-color:white;
+    height:auto;
+    padding-bottom: 50px;
+   
 }
 
  #galeria  img {
@@ -303,7 +210,7 @@ padding-top: 100px;
   display: flex;
   justify-content: center;
     width: 100%;
-    height: 900px;
+    height:900px;
     background-color: white;
 }
 #sectionbio2 .sectionbio3{
@@ -317,6 +224,7 @@ padding-top: 100px;
 
 .main-estilos{
     padding-bottom:10px;
+    
 }
 #carouselExampleInterval{
 
@@ -351,13 +259,16 @@ border:5px solid black;
 .center {
     
  
-        background-color:black;
+   background-color:black;
+  
     display: table;
     width: 100%;
-    height: 100px;
+    height:100px;
 }
 
 #social-test {
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
@@ -408,8 +319,9 @@ border:5px solid black;
 .center2{
     margin-top:-18px;
     width: 100%;
-    height: 30px;
+    height:30px;
     background-color:white;
+   
 }
 
 .center2 p{
