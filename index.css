@@ -201,6 +201,23 @@ font-size: 30px;
 
 
 
+/*main*/
+.main-estilos{
+    height: auto;
+    padding-bottom:10px;
+    
+}
+#carouselExampleInterval{
+
+margin-left: 10px;
+ max-width: 550px;
+height:850px;
+border:5px solid black;
+}
+
+
+/*bio*/
+
 #sectionbio img{
     width: 100%;
     height:900px
@@ -220,18 +237,6 @@ font-size: 30px;
 .sectionbio2 img{
     height: 840px;
     width:550px;
-}
-
-.main-estilos{
-    padding-bottom:10px;
-    
-}
-#carouselExampleInterval{
-
-margin-left: 10px;
- max-width: 550px;
-height:850px;
-border:5px solid black;
 }
 
 .sectionbio2 #imgbio{
