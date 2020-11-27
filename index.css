@@ -24,6 +24,9 @@ body {
     font-family: 'anton';
     font-size: 27px;
 }
+.navbar .navbar-brand:hover{
+    color:white;
+}
 
 .navbar-nav .nav-item  .nav-link  {
     text-transform: uppercase;
