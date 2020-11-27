@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="Sas/estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>BJJ SHUTTER</title>
 </head>
 
@@ -19,73 +21,63 @@
 
 
     <header>
-        <div id="header-estilos">
-            <a class="navbar-brand" id="shutter" href="#" id="color">Bjj Shutter</a>
-
-            <nav class="navbar navbar-expand-lg">
-
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class=" navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="bio.html">BIO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="faq.html">Faq</a>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Fotos
-                            </a>
-
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="drop">
-                                <a class="dropdown-item" href="entrenamientos.html">Entrenamientos</a>
-                                <a class="dropdown-item" href="retratos.html">Retratos</a>
-
-                                <a class="dropdown-item" href="eventos.html">eventos</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
-                        </li>
-                    </ul>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#">Bjj Shutter</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item ">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="bio.html">Bio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="faq.html">Faq</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Fotos
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="retratos.html">Retratos</a>
+                  <a class="dropdown-item" href="eventos.html">Eventos</a>
+    
+                  <a class="dropdown-item" href="entrenamientos.html">Entrenamientos</a>
                 </div>
-            </nav>
-        </div>
+              </li>
+    
+            </ul>
+          </div>
+    
+        </nav>
+      </header>
 
-    </header>
 
-
-
-    <main>
+    <main class="mainbio">
 
         <section id="sectionbio">
             <img src="fotos/newbio4.jpg" alt="Bjj Argentina">
 
         </section>
+      
 
-
-
+       
         <section class="sectionbio2">
 
 
             <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
                 <div id="carouselinner" class="carousel-inner">
                     <div class="carousel-item active" data-interval="10000">
-                        <img src="fotos/newbio3.jpg" class="d-block" alt="Bjj argentina".>
+                        <img src="fotos/newbio3.jpg" class="d-block" alt="Bjj argentina" .>
                     </div>
                     <div class="carousel-item" data-interval="2000">
                         <img src="fotos/newbio1.jpeg" class="d-block" alt="Bjj argentina">
@@ -103,60 +95,72 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-        
-<div class="sectionbio3">
 
-            <img id="imgbio" src="fotos/bio2.jpeg" alt="Bjj-foto-bio">
-            <h1>Hola, soy Bjj Shutter by Lucas D'Laffe</h1>
-            <div style="width: 80%;">
-            <p>En el año 2014 descubrí el jiu jitsu, para mi segunda clase ya tenía kimono propio y en solo semanas me
-                encontraba entrenando todos los días, mirando videos en cada segundo libre, eligiendo mis luchadores
-                favoritos y tratando de copiar sus movimientos. En poco más de un año, acumulé una decena de
-                competencias, recibí mi cinturón azul y me encontré con mi primera cámara.
+            <div class="sectionbio3">
 
-                El mismo camino marcial es el que decidí emprender con la fotografía, empapándome de información,
-                aprovechando cada oportunidad de aprendizaje y practicando a diario, desarrollando las habilidades
-                necesarias para que el sueño de vivir como fotógrafo se convierta en una realidad.
+                <img id="imgbio" src="fotos/bio2.jpeg" alt="Bjj-foto-bio">
+                <h1>Hola, soy Bjj Shutter by Lucas D'Leffe</h1>
+                <div style="width: 80%;">
+                    <p>En el año 2014 descubrí el jiu jitsu, para mi segunda clase ya tenía kimono propio y en solo
+                        semanas me
+                        encontraba entrenando todos los días, mirando videos en cada segundo libre, eligiendo mis
+                        luchadores
+                        favoritos y tratando de copiar sus movimientos. En poco más de un año, acumulé una decena de
+                        competencias, recibí mi cinturón azul y me encontré con mi primera cámara.
 
-                Actualmente me especializo en fotografía deportiva, documental, retrato ( con luz natural e iluminación
-                de estudio) y retoque digital. Nunca dejo de capacitarme; incluso en cuarentena aproveché para cursar
-                online, adquiriendo conocimientos de fotoproducto, dirección de fotografía, budoir, marketing digital,
-                entre otros.
+                        El mismo camino marcial es el que decidí emprender con la fotografía, empapándome de
+                        información,
+                        aprovechando cada oportunidad de aprendizaje y practicando a diario, desarrollando las
+                        habilidades
+                        necesarias para que el sueño de vivir como fotógrafo se convierta en una realidad.
 
-                Me considero un enamorado del arte suave, que por falta de palabras, expresa su pasión en imágenes.</p>
-            </div>
+                        Actualmente me especializo en fotografía deportiva, documental, retrato ( con luz natural e
+                        iluminación
+                        de estudio) y retoque digital. Nunca dejo de capacitarme; incluso en cuarentena aproveché para
+                        cursar
+                        online, adquiriendo conocimientos de fotoproducto, dirección de fotografía, budoir, marketing
+                        digital,
+                        entre otros.
+
+                        Me considero un enamorado del arte suave, que por falta de palabras, expresa su pasión en
+                        imágenes.</p>
+                </div>
             </div>
 
         </section>
-      
-  
+      </div>
+
         <footer>
-  
+
             <div class="center">
-              <div id="social-test">
-              <div class="social">
-              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-              
-          
-              </div>
-              </div>
-             </div>
+                <div id="social-test">
+                    <div class="social">
+                        <a href="https://m.facebook.com/390592134770548/posts/985387345291021/"  target="_blank"><i
+                                class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a
+                            href="https://www.instagram.com/bjjshutter/?fbclid=IwAR2PrOcOsHxj2heVIRXiDUnKgSNIFwqFEQvgtxTg2nLAiqetu7mqFipAgR4"  target="_blank"><i
+                                class="fa fa-instagram" aria-hidden="true"></i></a>
+
+
+                    </div>
+                </div>
             </div>
-          
+            </div>
+
             <div class="center2">
-              <p>Todos los Derechos reservados a &copy; Lucas D;Laffe</p>
-          </div>
-          
-          </footer>
+                <p>Todos los Derechos reservados a &copy; Lucas D'Leffe</p>
+            </div>
+
+        </footer>
 
         <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
-        <script src="./bootstrap/js/jquery-3.5.1.min.js"></script>
-
-
-
-    <script src="./bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
     </main>
 </body>
 

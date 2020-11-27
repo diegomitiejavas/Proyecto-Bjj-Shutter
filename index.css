@@ -9,63 +9,47 @@ body {
 
 /*navegador*/
 
-#header-estilos{
-    font-family: 'lato';
-    display: flex;
-    justify-content:center;
-  background-color: black;
+.navbar{
+    background-color:black;
+   
 }
-
-
-
-#header-estilos ul> li> a{
-    color:white;
-    padding-left: 30px;
-    font-size: 17px;
-    text-transform: uppercase;
-    }
-
-#header-estilos>ul>li>a:hover{
-color:red}
-
-#drop{
-    background-color: black;
-    }
+.fa-bars:before {
+    color: red;
     
-    #header-estilos>nav>a{
-    color:Red;
-   }
-
-
-   .dropdown>a{
-    background-color: black
-    ;}
-
-    .dropdown a:hover{
-    color:red;
 }
 
-#prueba2{
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-evenly;
+.navbar .navbar-brand {
+    margin-left: 5px;
+    color:red;
+    font-family: 'anton';
+    font-size: 27px;
+}
+
+.navbar-nav .nav-item  .nav-link  {
+    text-transform: uppercase;
+    color:white;
+font-size:17px;
+font-family:'lato'}
+
+#navbarSupportedContent {
+  
+   justify-content: center;
+}
+  
+#navbarSupportedContent ul li {
+    padding-left: 40px;
+}
+#navbarSupportedContent ul li a:hover{
+    color:Red;
+}
+
+.dropdown-menu {
+    background-color: black;
 }
 
 #shutter{
-
     color:red;
-position: absolute;
-margin-left: -1700px;
-
-font-family: 'Anton', sans-serif;
-font-size: 30px;
 }
-
-#navbarSupportedContent>ul>li>a:hover{
-    color:red
-}
-
-
 
 /*contacto*/  
 .form__estilos{
@@ -165,6 +149,9 @@ font-size: 30px;
 
 
 /*galerias*/
+.fondo-galerias{
+    background-color: black;
+}
 
 .contenedor-galeria{
     background-color:white;
@@ -191,7 +178,9 @@ font-size: 30px;
 
 
 
-
+.mainbio{
+    width: 100vw;
+}
 
 #sectionbio{
     background-color: white;
@@ -203,7 +192,8 @@ font-size: 30px;
 
 /*main*/
 .main-estilos{
-    height: auto;
+   height: auto;
+    
     padding-bottom:10px;
     
 }
@@ -218,10 +208,20 @@ border:5px solid black;
 
 /*bio*/
 
+#sectionbio {
+    width: 100vw;
+     
+}
 #sectionbio img{
-    width: 100%;
+    width: 100vw;
     height:900px
 }
+
+
+
+  @media screen and (max-width: 992px) { 
+    #sectionbio img{ width: 100vw !important;}
+  }
 
 .sectionbio2{
   display: flex;
@@ -235,13 +235,13 @@ border:5px solid black;
     flex-direction: column;
 }
 .sectionbio2 img{
-    height: 840px;
-    width:550px;
+    height: 80vw;
+    width:50vw;
 }
 
 .sectionbio2 #imgbio{
     
-    width:200px;
+    width:20vw;
     height: 200px;
     margin-bottom: 20px;
     margin-left: 550px;
@@ -271,6 +271,8 @@ border:5px solid black;
     height:100px;
 }
 
+
+/*Foot*/
 #social-test {
     padding-top: 10px;
     padding-bottom: 10px;
