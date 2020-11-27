@@ -178,9 +178,7 @@ font-family:'lato'}
 
 
 
-.mainbio{
-    width: 100vw;
-}
+
 
 #sectionbio{
     background-color: white;
@@ -208,20 +206,10 @@ border:5px solid black;
 
 /*bio*/
 
-#sectionbio {
-    width: 100vw;
-     
-}
 #sectionbio img{
-    width: 100vw;
+    width: 100vh;
     height:900px
 }
-
-
-
-  @media screen and (max-width: 992px) { 
-    #sectionbio img{ width: 100vw !important;}
-  }
 
 .sectionbio2{
   display: flex;
@@ -235,13 +223,13 @@ border:5px solid black;
     flex-direction: column;
 }
 .sectionbio2 img{
-    height: 80vw;
-    width:50vw;
+    height: 840px;
+    width:550px;
 }
 
 .sectionbio2 #imgbio{
     
-    width:20vw;
+    width:200px;
     height: 200px;
     margin-bottom: 20px;
     margin-left: 550px;
